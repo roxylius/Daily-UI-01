@@ -11,14 +11,14 @@ body {
 h2 {
     font-family: 'montserrat';
     font-weight: 700;
-    font-size: 29px;
+    font-size: 181.25%;
     padding-top: 8%;
     color: #000;
 }
 
 h3 {
     font-family: 'montserrat';
-    font-size: 21px;
+    font-size: 131.25%;
     padding: 8% 0%;
 }
 
@@ -71,10 +71,6 @@ input {}
 }
 
 /*main div container holding both container */
-.pop-out {
-    background-color: white;
-    height: 200px;
-}
 
 #pop-out {
     background-color: #fff;
