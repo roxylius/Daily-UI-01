@@ -12,7 +12,7 @@ h2 {
     font-family: 'montserrat';
     font-weight: 700;
     font-size: 181.25%;
-    padding-top: 8%;
+    padding-top: 7%;
     color: #000;
 }
 
@@ -20,10 +20,40 @@ h3 {
     font-family: 'montserrat';
     font-size: 131.25%;
     padding: 8% 0%;
+    margin: 0;
 }
 
-input {}
+input {
+    border: none;
+    border-bottom: 2px solid;
+    width: 82%;
+    margin-bottom: 5%;
+}
 
+input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+}
+
+#checkbox {
+    width: auto !important;
+    margin-bottom: 0% !important;
+}
+
+.remember-me {
+    display: inline-block;
+    position: relative;
+    bottom: 1px;
+    margin-bottom: 3% !important;
+
+}
+
+
+.left-bottom-or {
+    text-align: left;
+    margin-left: 15.5%;
+}
 
 #background {
     height: 100vh;
@@ -31,6 +61,18 @@ input {}
     display: flex;
     justify-content: center;
     align-items: center
+}
+
+#password {
+    margin-bottom: 1.8% !important;
+}
+
+.create-account {
+    border-radius: 10px !important;
+    border: none;
+    width: 49% !important;
+    background-color: #000;
+    margin-top: 0 !important;
 }
 
 /*google and facebook btn img resize*/
