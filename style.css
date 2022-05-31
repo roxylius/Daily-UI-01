@@ -5,13 +5,25 @@
 
 body {
     font-family: 'neueMachina';
+    color: #929191;
 }
 
 h2 {
     font-family: 'montserrat';
-    font-weight: 650;
-    font-size: 11.7;
+    font-weight: 700;
+    font-size: 29px;
+    padding-top: 8%;
+    color: #000;
 }
+
+h3 {
+    font-family: 'montserrat';
+    font-size: 21px;
+    padding: 8% 0%;
+}
+
+input {}
+
 
 #background {
     height: 100vh;
@@ -19,6 +31,49 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center
+}
+
+/*google and facebook btn img resize*/
+.google,
+.facebook {
+    width: 8%;
+    padding: 0;
+}
+
+/* buttons */
+.btn {
+    width: 70%;
+    border-radius: 56px;
+    margin-top: 4%;
+    border-width: 3px;
+    border-color: #929191;
+    text-align: left;
+    padding: 2%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+}
+
+/* Left container with content */
+#left {
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+
+/* Left container with only black pit img */
+#right {
+    background-color: #EF3784;
+    height: 100%;
+    width: 65%;
+    margin: 0%;
+    padding: 0%;
+    float: right;
+}
+
+/*main div container holding both container */
+.pop-out {
+    background-color: white;
+    height: 200px;
 }
 
 #pop-out {
@@ -32,39 +87,4 @@ h2 {
     width: 100%;
     max-height: 100%;
     object-fit: cover;
-}
-
-/* .google,
-.facebook {
-    width: 5%;
-    margin: 0%;
-    padding: 0%;
-}
-
-.btn {
-    width: auto;
-    height: auto;
-    padding: 0%;
-    border-radius: 60px;
-
-} */
-
-#left {
-    height: 100%;
-    width: 35%;
-    float: left;
-}
-
-#right {
-    background-color: #EF3784;
-    height: 100%;
-    width: 65%;
-    margin: 0%;
-    padding: 0%;
-    float: right;
-}
-
-.pop-out {
-    background-color: white;
-    height: 200px;
 }
