@@ -1,0 +1,70 @@
+@font-face {
+    font-family: neueMachina;
+    src: url(fonts/neue\ machina/NeueMachina-Regular.otf) format("opentype");
+}
+
+body {
+    font-family: 'neueMachina';
+}
+
+h2 {
+    font-family: 'montserrat';
+    font-weight: 650;
+    font-size: 11.7;
+}
+
+#background {
+    height: 100vh;
+    background-image: linear-gradient(to right, #EF3784, #3753C0);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#pop-out {
+    background-color: #fff;
+    height: 86%;
+    margin: auto;
+    padding: 0;
+}
+
+.img-right {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* .google,
+.facebook {
+    width: 5%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    padding: 0%;
+    border-radius: 60px;
+
+} */
+
+#left {
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+
+#right {
+    background-color: #EF3784;
+    height: 100%;
+    width: 65%;
+    margin: 0%;
+    padding: 0%;
+    float: right;
+}
+
+.pop-out {
+    background-color: white;
+    height: 200px;
+}
