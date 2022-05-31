@@ -36,25 +36,6 @@ input:focus {
     border-bottom: 2px solid;
 }
 
-#checkbox {
-    width: auto !important;
-    margin-bottom: 0% !important;
-}
-
-.remember-me {
-    display: inline-block;
-    position: relative;
-    bottom: 1px;
-    margin-bottom: 3% !important;
-
-}
-
-
-.left-bottom-or {
-    text-align: left;
-    margin-left: 15.5%;
-}
-
 #background {
     height: 100vh;
     background-image: linear-gradient(to right, #EF3784, #3753C0);
@@ -63,16 +44,19 @@ input:focus {
     align-items: center
 }
 
-#password {
-    margin-bottom: 1.8% !important;
+/*main div container holding both container */
+#pop-out {
+    background-color: #fff;
+    height: 86%;
+    margin: auto;
+    padding: 0;
 }
 
-.create-account {
-    border-radius: 10px !important;
-    border: none;
-    width: 49% !important;
-    background-color: #000;
-    margin-top: 0 !important;
+/* right container */
+.img-right {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
 
 /*google and facebook btn img resize*/
@@ -82,18 +66,7 @@ input:focus {
     padding: 0;
 }
 
-/* buttons */
-.btn {
-    width: 70%;
-    border-radius: 56px;
-    margin-top: 4%;
-    border-width: 3px;
-    border-color: #929191;
-    text-align: left;
-    padding: 2%;
-    padding-left: 4%;
-    padding-bottom: 3%;
-}
+
 
 /* Left container with content */
 #left {
@@ -112,17 +85,49 @@ input:focus {
     float: right;
 }
 
-/*main div container holding both container */
-
-#pop-out {
-    background-color: #fff;
-    height: 86%;
-    margin: auto;
-    padding: 0;
+/* div containing all inputs and create acc btn */
+.left-bottom-or {
+    text-align: left;
+    margin-left: 15.5%;
 }
 
-.img-right {
-    width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+
+#password {
+    margin-bottom: 1.8% !important;
+}
+
+.create-account {
+    border-radius: 10px !important;
+    border: none;
+    width: 49% !important;
+    background-color: #000;
+    margin-top: 0 !important;
+}
+
+#checkbox {
+    width: auto !important;
+    margin-bottom: 0% !important;
+}
+
+.remember-me {
+    display: inline-block;
+    font-size: 76.25%;
+    margin-bottom: 3% !important;
+    position: relative;
+    bottom: 1.8px;
+
+}
+
+
+/* buttons */
+.btn {
+    width: 70%;
+    border-radius: 56px;
+    margin-top: 4%;
+    border-width: 3px;
+    border-color: #929191;
+    text-align: left;
+    padding: 2%;
+    padding-left: 4%;
+    padding-bottom: 3%;
 }
